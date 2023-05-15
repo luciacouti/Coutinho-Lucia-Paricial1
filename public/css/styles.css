@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+ --color-principal-fondo: #f7ebe1;
+ --color-principal-texto: #6d655f;
+ --box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+ --color-fondito: #d5b13d;
+ --color-higlight: #db7f5d !important;
+}
+
+header {
+ background-color: var(--color-principal-fondo);
+ color: var(--color-fondito) !important;
+ text-align: center;
+ padding: 20px;
+}
+
+.navbar-brand{
+color: var(--color-fondito) !important;
+}
+
+.navbar-nav .nav-item a.nav-link:hover{
+color: var(--color-fondito) !important;
+}
+
+body{
+  font-family: 'Poppins',  sans-serif;
+  color: rgb(88, 85, 85)
+}
+
+a{
+  color: rgb(88, 85, 85) !important;;
+}
+
+li{
+  list-style: none !important;;
+}
+h1{
+  font-size: 24px !important;
+  margin-top: 20px !important;
+  font-weight: 600;
+ 
+}
+
+.container h1{
+ font-weight: 700;
+}
+
+h2{
+  font-size: 35px;
+  margin-top: 30px; 
+  /* text-align: center; */
+  
+  font-weight: 800;
+  color: #6d655f;
+}
+
+.list-group{
+  margin-top: 50px !important;
+}
+
+.tarjeta{
+  margin-top: 150px !important;
+
+}
+
+/* Path: public/css/estilos.css */
+.card{
+border: none !important;
+border-radius: 20px;
+box-shadow: var(--box-shadow);
+margin-bottom: 30px;
+}
+
+.card a{
+text-decoration: none;
+}
+
+
+.card-title{
+font-weight: 600;
+}
+
+.card-text{
+  font-size: 14px !important;
+}
+.card-text-p{
+  font-size: 10px !important;
+}
+
+.card-categoria{
+color: var(--color-higlight) ;
+font-weight: 400;
+text-transform: capitalize;
+}
+
+.btn-vermas{
+cursor: pointer;
+background-color: #db7f5d !important;
+color: white !important;
+border: none;
+opacity: 1;
+
+}
+
+.btn-vermas:hover{
+opacity: 0.8;
+color: white !important;
+}
+
+.btn-editar{
+ border: 1px solid var(--color-fondito) !important;
+ color: var(--color-fondito) !important;
+}
+
+.btn-editar:hover{
+  background-color: var(--color-fondito) !important;
+  color: white !important;
+}
+
+.btn-borrar{
+ border: 1px solid var(--color-higlight) !important;
+ color: var(--color-higlight) !important;
+}
+
+.btn-borrar:hover{
+  background-color: var(--color-higlight) !important;
+  color: white !important;
+}
+
+.float-right{
+  float: right;
+}
+
+
+.navback{
+  border: solid 0.25px rgb(187, 187, 187) ;
+
+}
+.nav-a{
+  margin-left: 50px;
+}
+
+h2.card-title{
+  font-weight: 700;
+}
+
+h1.titulo-inicio{
+ font-size: 30px !important;
+ color: #db7f5d;
+}
+
+h2.subtitulo-inicio{
+  font-size: 22px !important;
+}
+
+.formu input{
+  border: none !important;
+  border-bottom: 1px solid rgb(187, 187, 187) !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  margin-bottom: 20px !important;
+  width: 50% !important;
+}
+
